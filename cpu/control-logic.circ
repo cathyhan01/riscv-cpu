@@ -179,6 +179,41 @@
       <a name="facing" val="north"/>
       <a name="label" val="CSRWen"/>
     </comp>
+    <comp lib="0" loc="(120,310)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="PCSel"/>
+    </comp>
+    <comp lib="0" loc="(120,350)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="RegWEn"/>
+    </comp>
+    <comp lib="0" loc="(120,390)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="ImmSel"/>
+      <a name="width" val="3"/>
+    </comp>
+    <comp lib="0" loc="(120,430)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="ASel"/>
+    </comp>
+    <comp lib="0" loc="(120,470)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="BSel"/>
+    </comp>
+    <comp lib="0" loc="(120,510)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="ALUSel"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(120,550)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="MemRW"/>
+    </comp>
+    <comp lib="0" loc="(120,590)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="WBSel"/>
+      <a name="width" val="2"/>
+    </comp>
     <comp lib="0" loc="(130,210)" name="Pin">
       <a name="facing" val="south"/>
       <a name="label" val="inst"/>
@@ -188,6 +223,38 @@
       <a name="facing" val="north"/>
       <a name="label" val="inst"/>
       <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(150,310)" name="Constant">
+      <a name="facing" val="west"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(150,350)" name="Constant">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(150,390)" name="Constant">
+      <a name="facing" val="west"/>
+      <a name="value" val="0x0"/>
+      <a name="width" val="3"/>
+    </comp>
+    <comp lib="0" loc="(150,430)" name="Constant">
+      <a name="facing" val="west"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(150,470)" name="Constant">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(150,510)" name="Constant">
+      <a name="facing" val="west"/>
+      <a name="value" val="0x0"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(150,550)" name="Constant">
+      <a name="facing" val="west"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(150,590)" name="Constant">
+      <a name="facing" val="west"/>
+      <a name="width" val="2"/>
     </comp>
     <comp lib="0" loc="(200,210)" name="Pin">
       <a name="facing" val="south"/>
@@ -313,6 +380,14 @@
     <wire from="(1010,210)" to="(1010,230)"/>
     <wire from="(1030,230)" to="(1040,230)"/>
     <wire from="(1040,150)" to="(1040,230)"/>
+    <wire from="(120,310)" to="(150,310)"/>
+    <wire from="(120,350)" to="(150,350)"/>
+    <wire from="(120,390)" to="(150,390)"/>
+    <wire from="(120,430)" to="(150,430)"/>
+    <wire from="(120,470)" to="(150,470)"/>
+    <wire from="(120,510)" to="(150,510)"/>
+    <wire from="(120,550)" to="(150,550)"/>
+    <wire from="(120,590)" to="(150,590)"/>
     <wire from="(130,210)" to="(130,230)"/>
     <wire from="(150,230)" to="(180,230)"/>
     <wire from="(200,210)" to="(200,230)"/>
