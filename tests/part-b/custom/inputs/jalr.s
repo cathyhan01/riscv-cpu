@@ -6,7 +6,7 @@ jalr x0, ra, forward
 
 backward:
 sub a2, a2, a3
-j end
+jalr x0, ra, end
 
 forward:
 li a0, -1
