@@ -9,7 +9,3 @@ sh s0, 1(a0)
 addi t1, x0, 1200
 addi s3, x0, 2040
 sh t1, 2(s3)
-
-addi t2, x0, -10
-addi s1, x0, 1987
-sh t2, 3(s1)
