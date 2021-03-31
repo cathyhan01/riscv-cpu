@@ -9,7 +9,6 @@ sub a2, a2, a3
 jal ra, end
 
 forward:
-li a0, -1
 addi a4, x0, -1
 jal x0, backward
 
