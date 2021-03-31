@@ -361,7 +361,7 @@
       <a name="addrWidth" val="14"/>
       <a name="appearance" val="logisim_evolution"/>
       <a name="contents">addr/data: 14 32
-2C000EF 6EF00513 F3500593 40B50633 7D000693 10000EF 200593 55A593 14000EF 40D60633 8067 FFF00713 8067 F9C00513
+2C000EF 6EF00513 F3500593 40B50633 7D000693 10000EF 200593 55A593 C08067 40D60633 80E7 FFF00713 8067 F9C00513
 </a>
       <a name="dataWidth" val="32"/>
     </comp>

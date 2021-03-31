@@ -4,9 +4,17 @@ sub a2, a0, a1
 addi a3, x0, 2000
 jal ra, forward
 
-backward:
-sub a2, a2, a3
+backward_again:
+addi s3, x0, -4
 jal ra, end
+
+backward:
+addi s2, x0, 1001
+jal x0, forward_again
+
+forward_again:
+sub a2, a2, a3
+jal ra, backward_again
 
 forward:
 addi a4, x0, -1
