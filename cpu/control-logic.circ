@@ -1162,7 +1162,7 @@
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(1870,1530)" name="Constant">
-      <a name="value" val="0x8"/>
+      <a name="value" val="0xd"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(1870,820)" name="Constant"/>
@@ -1455,6 +1455,7 @@
       <a name="labelfont" val="SansSerif bold 10"/>
     </comp>
     <comp lib="0" loc="(440,1030)" name="Constant">
+      <a name="value" val="0x0"/>
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(440,1060)" name="Tunnel">
