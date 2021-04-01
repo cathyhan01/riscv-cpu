@@ -10,8 +10,8 @@ Look ma, I made a CPU! Here's what I did:
 
 - In part b, then implemented the remaining ISA including R-type, I-type, S-type, B-type, U-type, and J-type instructions. Control status registers were also implemented.
 
-- Wrote extensive unit, integration, and edge case tests in RISC-V to test all 32 registers, all instructions in ISA, and upper limits for branches and jumps.
+- Wrote custom extensive unit, integration, and edge case tests in RISC-V to test all 32 registers, all instructions in ISA, and upper limits for branches and jumps.
 
 - Implemented a 2-stage pipeline: Instruction Fetch and Execute(includes what was originally Instruction Decode, Execute, Memory, and Writeback as described above). Used registers to store cpu state and took into account using nops when we take a branch and everytime we jump.
 
-- Written tests hold for pipelined CPU
+- All written tests hold for pipelined CPU.
