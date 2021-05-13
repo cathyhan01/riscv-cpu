@@ -1,4 +1,4 @@
-# CS61CPU
+# RISC-V CPU
 
 Look ma, I made a CPU! Here's what I did:
 
